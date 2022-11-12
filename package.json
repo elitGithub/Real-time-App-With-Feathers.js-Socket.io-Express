@@ -1,0 +1,26 @@
+{
+  "name": "real-time-app-with-feathers.js-socket.io-express",
+  "version": "1.0.0",
+  "description": "\"# Real-time-App-With-Feathers.js-Socket.io-Express\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elitGithub/Real-time-App-With-Feathers.js-Socket.io-Express.git"
+  },
+  "author": "Eli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elitGithub/Real-time-App-With-Feathers.js-Socket.io-Express/issues"
+  },
+  "homepage": "https://github.com/elitGithub/Real-time-App-With-Feathers.js-Socket.io-Express#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.15",
+    "@feathersjs/feathers": "^4.5.15",
+    "@feathersjs/socketio": "^4.5.15",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.3"
+  }
+}

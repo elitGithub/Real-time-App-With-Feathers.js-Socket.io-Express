@@ -37,7 +37,7 @@
                     />
                 </div>
                 <div class="form-group">
-                    <input
+                    <label for="idea-tech"></label><input
                             type="text"
                             id="idea-tech"
                             class="form-control bg-dark text-white"
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="form-group">
-                    <input
+                    <label for="idea-viewer"></label><input
                             type="text"
                             id="idea-viewer"
                             class="form-control bg-dark text-white"
@@ -65,24 +65,14 @@
         </div>
         <div class="col-md-6">
             <div id="ideas">
-                <!-- <div class="card bg-secondary my-3">
-                  <div class="card-body">
-                    <p class="lead">
-                      Create a realtime app <strong>(Feathers.js)</strong>
-                      <br />
-                      <em>Submitted by John Doe</em>
-                      <br />
-                      <small>2:05:10</small>
-                    </p>
-                  </div>
-                </div> -->
+
             </div>
         </div>
     </div>
 </div>
 
 <script src="https://unpkg.com/@feathersjs/client@^4.3.0/dist/feathers.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+<script src="https://cdn.socket.io/4.5.3/socket.io.min.js" integrity="sha384-WPFUvHkB1aHA5TDSZi6xtDgkF0wXJcIIxXhC6h8OT8EH3fC5PWro5pWJ1THjcfEi" crossorigin="anonymous"></script>
 
 <script>
     // Socket.io setup
